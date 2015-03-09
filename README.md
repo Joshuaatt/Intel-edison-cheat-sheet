@@ -16,7 +16,7 @@ For Mac:
 For Linux:
 ```$ screen /dev/ttyusb0 115200 -L```
 
-To configure wifi type:
+To configure wifi run:
 
 ```$ configure_edison --wifi```
 
