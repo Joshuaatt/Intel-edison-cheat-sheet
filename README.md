@@ -14,7 +14,7 @@ For Mac:
 ```$ screen /dev/xx.usbmodem-xxxxxx 115200 -L```
 
 For Linux:
-```$ screen /dev/ttyusb0 115200 -L
+```$ screen /dev/ttyusb0 115200 -L```
 
 To configure wifi type:
 
