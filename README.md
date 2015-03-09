@@ -3,13 +3,18 @@
 
 ## Table of contents
 
-* [Gaining access Intel Edison](# Gaining access)
+* [Gaining access Intel Edison](#gaining-access)
+* [Starting Ionic](#starting-ionic)
 
 ## Gaining access
 
-To gain access to the Intel Edison type:
+To gain access to the Intel Edison run:
 
-```$ screen /dev/xx.usbmodem-xxxxxx 15200 -L```
+For Mac:
+```$ screen /dev/xx.usbmodem-xxxxxx 115200 -L```
+
+For Linux:
+```$ screen /dev/ttyusb0 115200 -L
 
 To configure wifi type:
 
@@ -19,13 +24,13 @@ To configure wifi type:
 
 ## Starting Ionic
 
-To start a new project type:
+To start a new project run:
 
 ```$ ionic start yourApp tabs```
 
 Replace "yourApp" with the name of your application and "tabs" with the template you would like to start with.
 
-cd into your app folder and type:
+cd into your app folder and run:
 
 ```$ ionic platform add android``` or ```$ ionic platform add ios```
 
