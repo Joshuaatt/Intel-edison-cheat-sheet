@@ -37,3 +37,7 @@ To open your app in the AVD (android virtual device):
 
 If you get the error ```Command failed with exit code 2``` you may not have the android sdk downloaded.
 To download ```$ brew install android-sdk```
+
+## Viewing your Ionic app in the browser
+
+Run ```ionic serve -l``` in your root directory
