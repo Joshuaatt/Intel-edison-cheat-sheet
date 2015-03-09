@@ -6,7 +6,10 @@
 * [Gaining access Intel Edison](#gaining-access)
 * [Starting Ionic](#starting-ionic)
 
-## Gaining access
+
+## Intel Edison
+
+#### Gaining access
 
 To gain access to the Intel Edison run:
 
@@ -21,8 +24,9 @@ To configure wifi run:
 ```$ configure_edison --wifi```
 
 
+## Ionic
 
-## Starting Ionic
+#### Starting Ionic
 
 To start a new project run:
 
@@ -43,6 +47,6 @@ To open your app in the AVD (android virtual device):
 If you get the error ```Command failed with exit code 2``` you may not have the android sdk downloaded.
 To download ```$ brew install android-sdk```
 
-## Viewing your Ionic app in the browser
+#### Viewing your Ionic app in the browser
 
 Run ```ionic serve -l``` in your root directory
