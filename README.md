@@ -13,4 +13,4 @@ To gain access to the Intel Edison type:
 
 To configure wifi type:
 
-```$ configur_edison --wifi```
+```$ configure_edison --wifi```
