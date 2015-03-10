@@ -34,11 +34,15 @@ To start a new project run:
 
 Replace "yourApp" with the name of your application and "tabs" with the template you would like to start with.
 
-cd into your app folder and run:
+To see your app in the browser run:
 
-```$ ionic platform add android``` or ```$ ionic platform add ios```
+```$ ionic serve```
 
-then ```$ ionic build android``` or ```$ ionic build ios```
+After your app is built cd into your app folder and run:
+
+```$ ionic platform add android``` or ```$ ionic platform add ios``` or ```$ ionic platform add android ios```
+
+then ```$ ionic build android``` or ```$ ionic build ios``` or ```$ ionic build android ios```
 
 To open your app in the AVD (android virtual device):
 
@@ -50,3 +54,10 @@ To download ```$ brew install android-sdk```
 #### Viewing your Ionic app in the browser
 
 Run ```ionic serve -l``` in your root directory
+
+#### Running your app on an android device
+
+Enable developer mode, plug the device into your computer, and run
+
+```$ ionic run android```
+Your app will be loaded onto your phone and then run.
