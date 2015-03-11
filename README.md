@@ -23,6 +23,13 @@ To configure wifi run:
 
 ```$ configure_edison --wifi```
 
+To close a telnet session type control + ] and run ```quit```
+
+While in screen type control + a to see all screen windows
+
+```screen -list``` will list all screen sessions
+```screen -wipe``` will remove all dead screens
+```screen -X -S xxxxx quit``` will quit the screen session you specify
 
 ## Ionic
 
